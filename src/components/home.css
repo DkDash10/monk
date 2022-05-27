@@ -9,11 +9,12 @@ input::-webkit-inner-spin-button {
     flex-direction: column;
     align-items: center;
     width:100vw;
-
 }
 
 .home__pd{
   display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
 .home-main{
   width: 500px;
@@ -37,7 +38,7 @@ input::-webkit-inner-spin-button {
 }
 
 .home__input-main{
-    width: 300px;
+    width: 400px;
     padding: 0.5rem;
   border-radius: 4px;
   margin-left: 10px;
@@ -48,9 +49,9 @@ input::-webkit-inner-spin-button {
    transform: translate(-30px);
 }
 
-.home-input__toggle {
+/* .home-input__toggle {
   display: none;
-}
+} */
 
 
 .home__discount-btn {
@@ -79,6 +80,15 @@ input::-webkit-inner-spin-button {
   width: 85px;
 }
 
+.home__close{
+  margin-left: 15px;
+}
+.home__close-2{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 11px;
+}
+
 .change{
 display: flex;
 justify-content: flex-end;
@@ -97,6 +107,7 @@ flex-direction: column;
 .home__varient-1{
   display: flex;
   justify-content: flex-end;
+  margin: 10px 0px;
 }
 .home__offer-input-2{
     width: 50px;
@@ -119,13 +130,14 @@ flex-direction: column;
 
 .home__add-btn{
      /* transform: translate(220px, 20px); */
-     width: 500px;
+     width: 700px;
      display: flex;
      justify-content: flex-end;
 }
 
 
 .add-btn{
+  margin-top: 20px;
     color: green;
     border: 2px solid green ;
     padding: 0.8rem 2rem;
