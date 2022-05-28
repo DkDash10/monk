@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monk/static/css/main.ec27cdcf.css",
+    "main.js": "/monk/static/js/main.d2c2e37b.js",
+    "index.html": "/monk/index.html",
+    "main.ec27cdcf.css.map": "/monk/static/css/main.ec27cdcf.css.map",
+    "main.d2c2e37b.js.map": "/monk/static/js/main.d2c2e37b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec27cdcf.css",
+    "static/js/main.d2c2e37b.js"
+  ]
+}
