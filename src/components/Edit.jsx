@@ -13,9 +13,6 @@ const StyledModal = styled(Modal)({
   justifyContent: "center",
 });
 
-// export const CHECKED = 1;
-// export const UNCHECKED = 2;
-// export const INDETERMINATE = -1;
 
 const Edit = ({childToParent}) => {
   const [open, setOpen] = useState(false);
@@ -70,8 +67,8 @@ const Edit = ({childToParent}) => {
 
 const handleChek =(data)=>{
   const exist = checkBox.find((x) => x.title === data.title);
-  console.log("data")
-  console.log(exist)
+  // console.log("data")
+  // console.log(exist)
   if(exist){
     setCheckBox(
       checkBox.map((x)=>
@@ -85,8 +82,8 @@ const handleChek =(data)=>{
 
 const handleChek2 =(d)=>{
   const exist = checkBox.find((x) => x.title === d.title);
-  console.log("data")
-  console.log(exist)
+  // console.log("data")
+  // console.log(exist)
   if(exist){
     setCheckBox(
       checkBox.map((x)=>

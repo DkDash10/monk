@@ -42,8 +42,8 @@ function App() {
 
   const childToParent = (e, childData) => {
     e.preventDefault()
-    console.log(e);
-    console.log(childData)
+    // console.log(e);
+    // console.log(childData)
     childData.map((item,i)=> (i.length=== 0 && inputList.length === 0) ? (
       setInputList([
         {
@@ -103,11 +103,11 @@ function App() {
         showVarient: true,
       },
     ]);
-    console.log("inputList", inputList);
+    // console.log("inputList", inputList);
   };
 
   const handleToggle = (index) => {
-    console.log(index);
+    // console.log(index);
     setInputList((prev) =>
       prev.map((item, i) =>
         i === index ? { ...item, addDiscount: false } : { ...item }
